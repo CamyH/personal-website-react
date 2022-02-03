@@ -6,8 +6,17 @@
   --spanish-gray: #a29c9bff;
   --dark-sienna: #511c29ff;
 }
-
 body {
-  text-align: center;
   background-color: var(--spanish-gray);
+}
+
+/* ########### NAVBAR ########### */
+.navbar {
+  display: flex;
+  background-color: var(--amaranth);
+  width: 100%;
+  height: 100%;
+}
+.navbar-elements {
+  list-style-type: none;
 }
