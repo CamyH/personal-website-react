@@ -1,0 +1,13 @@
+/* COLOUR VARIABLES */
+:root {
+  --crimson-ua: #a62639ff;
+  --amaranth: #db324dff;
+  --dark-liver: #56494eff;
+  --spanish-gray: #a29c9bff;
+  --dark-sienna: #511c29ff;
+}
+
+body {
+  text-align: center;
+  background-color: var(--spanish-gray);
+}
