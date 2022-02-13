@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+:root {
+  --background: hsl(235, 10%, 21%);
+  --header-colour: white;
+  --header: "Montserrat", sans-serif;
+  --header-weight: 700;
+  --sub-heading-weight: 500;
+  --button-weight: 600;
+}
+body {
+  font-family: var(--header);
+  background-color: var(--background);
+}
+
+h1 {
+  font-weight: var(--header-weight);
+}
+h2 {
+  font-weight: var(--sub-heading-weight);
+}
+
+h1,
+h2 {
+  color: var(--header-colour);
+}
+
+#headers {
+  height: 90vh;
+}
+
+#headers {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 1rem 0 10rem;
+  column-gap: 0;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
