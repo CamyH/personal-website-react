@@ -1,22 +1,7 @@
 /* COLOUR VARIABLES */
 :root {
-  --crimson-ua: #a62639ff;
-  --amaranth: #db324dff;
-  --dark-liver: #56494eff;
-  --spanish-gray: #a29c9bff;
-  --dark-sienna: #511c29ff;
+  --background: hsl(235, 10%, 21%);
 }
 body {
-  background-color: var(--spanish-gray);
-}
-
-/* ########### NAVBAR ########### */
-.navbar {
-  display: flex;
-  background-color: var(--amaranth);
-  width: 100%;
-  height: 100%;
-}
-.navbar-elements {
-  list-style-type: none;
+  background-color: var(--background);
 }

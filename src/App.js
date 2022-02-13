@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navbar.js";
 import "./CSS/style.css";
+import Wave from "./components/Wave";
 
 function App() {
   return (
     <main>
-      <Navbar />
+      <Wave />
     </main>
   );
 }
