@@ -123,3 +123,10 @@ h2 {
     height: 17vw;
   }
 }
+
+@media (max-width: 580px) {
+  #buttons > button {
+    min-width: 80px !important;
+    font-size: clamp(0.25rem, 1rem, 1.5rem);
+  }
+}
