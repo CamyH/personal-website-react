@@ -5,10 +5,11 @@ Importing font
 :root {
   --background: hsl(235, 10%, 21%);
   --header-colour: white;
-  --header: "Montserrat", sans-serif;
+  --font: "Montserrat", sans-serif;
   --header-weight: 700;
-  --sub-heading-weight: 500;
-  --button-weight: 600;
+  --sub-heading-weight: 600;
+  --button-weight: 500;
+  --button-bg: rgba(23, 98, 167, 1);
 }
 
 /* 
@@ -16,16 +17,19 @@ Base Page + Title
 */
 
 body {
-  font-family: var(--header);
+  font-family: var(--font);
   background-color: var(--background);
 }
 
 #wrapper {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
   column-gap: 0;
-  height: 100vh;
+  height: 90vh;
+  margin: 0 0 0 6em;
+  min-width: 0;
 }
 
 h1 {
@@ -39,50 +43,30 @@ h2 {
 #name-h1,
 #what-am-i-h2 {
   color: var(--header-colour);
-  flex-basis: 5%;
+  flex-basis: 1.75em;
   height: 0;
   margin: 0;
   border: 0;
+  min-width: 0;
+}
+
+#name-h1,
+#what-am-i-h2,
+#buttons {
+  align-self: flex-start;
+  min-width: 0;
+  min-height: 0;
 }
 
 #buttons {
   display: inline-flex;
   flex-direction: row;
-  flex-basis: 5%;
+  flex-basis: 3em;
 }
 #buttons > button {
-  margin: 6px;
+  margin: 0 1em 0 0;
+  cursor: pointer;
+  min-width: 125px !important;
+  font-family: var(--font) !important;
+  font-weight: var(--button-weight);
 }
-
-/* 
-Buttons
-*/
-/*
-#project-button,
-#cv-button {
-  width: 100%;
-  flex-basis: 100%;
-  margin: 1rem 10rem 0 1rem;
-}
-/*
-#wrapper {
-  min-width: 50%;
-  margin: auto 0 auto 0;
-  display: grid;
-  grid-template-columns: 25% 10%;
-  grid-auto-rows: 50px;
-  grid-gap: 20px; 
-}
-h1 {
-}
-h2 {
-  grid-column-start: 1;
-}
-#project-button {
-  width: 25%;
-  grid-column-start: 1;
-}
-#cv-button {
-  width: 25%;
-  grid-column-start: 2;
-}*/
