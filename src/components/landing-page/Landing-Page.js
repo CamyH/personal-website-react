@@ -8,6 +8,9 @@ function LandingPage() {
         <h1 id="name-h1">Cameron Hunt</h1>
         <h2 id="what-am-i-h2">Student / Developer</h2>
         <div id="buttons">
+          <button id="about-me-button" class="btn btn-primary btn-lg">
+            ABOUT ME
+          </button>
           <button id="project-button" class="btn btn-primary btn-lg">
             PROJECTS
           </button>

@@ -63,7 +63,7 @@ h2 {
 #buttons {
   display: inline-flex;
   flex-direction: row;
-  flex-basis: 3em;
+  flex-basis: 4em;
 }
 #buttons > button {
   margin: 0 1em 0 0;
