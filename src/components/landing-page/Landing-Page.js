@@ -16,6 +16,9 @@ function LandingPage() {
           </button>
         </div>
       </div>
+      <div class="landing-page-circle-1"></div>
+      <div class="landing-page-circle-2"></div>
+      <div class="landing-page-circle-3"></div>
     </React.Fragment>
   );
 }

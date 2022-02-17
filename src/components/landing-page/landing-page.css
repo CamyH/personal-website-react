@@ -10,6 +10,8 @@ Importing font
   --sub-heading-weight: 600;
   --button-weight: 500;
   --button-bg: rgba(23, 98, 167, 1);
+  --circle-1-bg: hsla(209, 76%, 37%, 0.1);
+  --circle-3-bg: #bc3a801a;
 }
 
 /* 
@@ -69,4 +71,39 @@ h2 {
   min-width: 125px !important;
   font-family: var(--font) !important;
   font-weight: var(--button-weight);
+}
+
+.landing-page-circle-1,
+.landing-page-circle-2,
+.landing-page-circle-3 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.landing-page-circle-1,
+.landing-page-circle-2 {
+  background-color: var(--circle-1-bg);
+}
+
+.landing-page-circle-1 {
+  width: 15vw;
+  height: 15vw;
+  top: -5vw;
+  left: -5vw;
+}
+
+.landing-page-circle-2 {
+  width: 10vw;
+  height: 10vw;
+  top: 50vh;
+  left: 55vw;
+}
+
+.landing-page-circle-3 {
+  width: 12vw;
+  height: 12vw;
+  background-color: var(--circle-3-bg);
+  top: 5vh;
+  right: 3vw;
 }
