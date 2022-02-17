@@ -107,3 +107,19 @@ h2 {
   top: 5vh;
   right: 3vw;
 }
+
+@media (max-width: 1280px) {
+  .landing-page-circle-1 {
+    width: 20vw;
+    height: 20vw;
+  }
+  .landing-page-circle-2 {
+    width: 15vw;
+    height: 15vw;
+    top: 60vh;
+  }
+  .landing-page-circle-3 {
+    width: 17vw;
+    height: 17vw;
+  }
+}

@@ -21,3 +21,17 @@
 .wave .shape-fill {
   fill: var(--wave);
 }
+
+@media (max-width: 1280px) {
+  .wave svg {
+    min-height: 300px;
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wave svg {
+    min-height: 200px;
+    max-height: 250px;
+  }
+}
