@@ -8,3 +8,14 @@
 #projects-header {
   margin: clamp(1em, 2em, 3em);
 }
+
+#projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#project-1 {
+  border-radius: 50%;
+  width: clamp(15em, 20em, 30em);
+  height: clamp(15em, 20em, 30em);
+}
