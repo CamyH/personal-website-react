@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./landing-page.css";
+import Wave from "./Wave";
 
 function LandingPage() {
   return (
     <React.Fragment>
+      <Wave />
       <div id="wrapper">
         <h1 id="name-h1">Cameron Hunt</h1>
         <h2 id="what-am-i-h2">Student / Developer</h2>

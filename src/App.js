@@ -1,15 +1,23 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./components/landing-page/landing-page.css";
-import Wave from "./components/landing-page/Wave";
 import LandingPage from "./components/landing-page/Landing-Page";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
   return (
-    <main>
-      <Wave />
-      <LandingPage />
-    </main>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </Router>
   );
 }
 
