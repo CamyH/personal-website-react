@@ -7,7 +7,7 @@ function LandingPage() {
   return (
     <React.Fragment>
       <Wave />
-      <div id="wrapper">
+      <section id="wrapper">
         <h1 id="name-h1">Cameron Hunt</h1>
         <h2 id="what-am-i-h2">Student / Developer</h2>
         <div id="buttons">
@@ -21,7 +21,7 @@ function LandingPage() {
             CV
           </button>
         </div>
-      </div>
+      </section>
       <div class="landing-page-circle-1"></div>
       <div class="landing-page-circle-2"></div>
       <div class="landing-page-circle-3"></div>

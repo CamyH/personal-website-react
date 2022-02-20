@@ -1,0 +1,10 @@
+@import "/src/components/landing-page/landing-page.css";
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#projects-header {
+  margin: clamp(1em, 2em, 3em);
+}
