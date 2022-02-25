@@ -16,6 +16,18 @@
 
 #project-1 {
   border-radius: 50%;
-  width: clamp(15em, 20em, 30em);
-  height: clamp(15em, 20em, 30em);
+  width: clamp(10em, 20em, 30em);
+  height: clamp(10em, 20em, 30em);
+}
+
+img {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: white;
+  filter: grayscale(100%);
 }
