@@ -129,15 +129,6 @@ h2 {
   }
 }
 
-@media (max-width: 580px) {
-  #about-me-button,
-  #project-button,
-  #cv-button {
-    min-width: 25px !important;
-    font-size: 0.5em !important;
-  }
-}
-
 @media (max-width: 620px) {
   #wrapper {
     height: 100%;
@@ -153,5 +144,11 @@ h2 {
   }
   #what-am-i-h2 {
     font-size: 1rem;
+  }
+  #about-me-button,
+  #project-button,
+  #cv-button {
+    min-width: 25px !important;
+    font-size: 0.5em !important;
   }
 }

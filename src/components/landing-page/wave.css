@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1110px) {
   .wave svg {
     min-height: 200px;
     max-height: 250px;
