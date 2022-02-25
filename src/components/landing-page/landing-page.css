@@ -69,10 +69,11 @@ h2 {
   flex-direction: row;
   flex-basis: 4em;
 }
-#buttons > button {
+#about-me-button,
+#project-button,
+#cv-button {
   margin: 0 1em 0 0;
   cursor: pointer;
-  min-width: 125px !important;
   font-family: var(--font) !important;
   font-weight: var(--button-weight);
 }
@@ -129,8 +130,28 @@ h2 {
 }
 
 @media (max-width: 580px) {
-  #buttons > button {
-    min-width: 80px !important;
-    font-size: clamp(0.25rem, 1rem, 1.5rem);
+  #about-me-button,
+  #project-button,
+  #cv-button {
+    min-width: 25px !important;
+    font-size: 0.5em !important;
+  }
+}
+
+@media (max-width: 620px) {
+  #wrapper {
+    height: 100%;
+    width: auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 2rem;
+    margin: 8rem 0 0 2rem;
+  }
+  #name-h1 {
+    font-size: 1.5rem;
+  }
+  #what-am-i-h2 {
+    font-size: 1rem;
   }
 }
