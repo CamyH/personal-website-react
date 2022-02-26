@@ -12,10 +12,10 @@ function Projects() {
                     <h1 id='projects-header'>Projects</h1>
                 </div>
                 <div id='projects'>
-                    <img src={f2} id='project-1' class="projects img-fluid" />
-                    <img src={weather} id="project-2" class="projects img-fluid" />
-                    <img src={cyoag} id="project-3" class="projects img-fluid" />
-                </div>
+                        <a href='https://github.com/CamyH/F2-League-Leaderboard' target="_blank"><img src={f2} id='project-1' class="projects img-fluid" /></a>
+                        <a href='https://github.com/CamyH/WeatherApp' target="_blank"><img src={weather} id="project-2" class="projects img-fluid" /></a>
+                        <a href='https://github.com/CamyH/A-Vikingr-Adventure-CYOAG' target="_blank"><img src={cyoag} id="project-3" class="projects img-fluid" /></a>
+                    </div>
             </section>
         </React.Fragment>
     )
