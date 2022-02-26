@@ -17,6 +17,9 @@ function Projects() {
                     <a href='https://github.com/CamyH/WeatherApp' target="new"><img src={weather} id="project-2" class="projects img-fluid" alt='weather app' /></a>
                     <a href='https://github.com/CamyH/A-Vikingr-Adventure-CYOAG' target="new"><img src={cyoag} id="project-3" class="projects img-fluid" alt='adventure game' /></a>
                 </div>
+                <div id='github-logo-container'>
+                    <a href='https://github.com/CamyH' target="new"><img src={github} id="github-logo" class="img fluid" alt='github icon' /></a>
+                </div>
             </section>
         </React.Fragment>
     )
