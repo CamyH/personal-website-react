@@ -21,7 +21,7 @@ function LandingPage() {
               PROJECTS
             </button>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/cv"}>
             <button id="cv-button" class="btn btn-primary btn-lg">
               CV
             </button>
