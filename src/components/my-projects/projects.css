@@ -12,12 +12,13 @@
 #projects {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 0 5% 0;
 }
 
-#project-1 {
+.projects {
   border-radius: 50%;
-  width: clamp(10em, 20em, 30em);
-  height: clamp(10em, 20em, 30em);
+  width: clamp(8em, 16em, 26em);
+  height: clamp(8em, 16em, 26em);
 }
 
 img {
