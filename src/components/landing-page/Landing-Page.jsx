@@ -11,7 +11,7 @@ function LandingPage() {
         <h1 id="name-h1">Cameron Hunt</h1>
         <h2 id="what-am-i-h2">Student / Developer</h2>
         <div id="buttons">
-          <Link to={"/"}>
+          <Link to={"/about-me"}>
             <button id="about-me-button" class="btn btn-primary btn-lg">
               ABOUT ME
             </button>
@@ -23,7 +23,7 @@ function LandingPage() {
           </Link>
           <div>
             <a href="CameronHuntCV2022.pdf" id="cv-button" class="btn btn-primary btn-lg" download target="_self">
-              CV DOWNLOAD
+              DOWNLOAD CV
             </a>
           </div>
         </div>
