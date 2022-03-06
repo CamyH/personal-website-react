@@ -21,11 +21,11 @@ function LandingPage() {
               PROJECTS
             </button>
           </Link>
-          <Link to={"/cv"}>
-            <button id="cv-button" class="btn btn-primary btn-lg">
-              CV
-            </button>
-          </Link>
+          <div>
+            <a href="CameronHuntCV2022.pdf" id="cv-button" class="btn btn-primary btn-lg" download target="_self">
+              CV DOWNLOAD
+            </a>
+          </div>
         </div>
       </section>
       <div class="landing-page-circle-1"></div>
