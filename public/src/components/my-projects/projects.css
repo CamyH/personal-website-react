@@ -1,0 +1,50 @@
+@import "/src/components/landing-page/landing-page.css";
+
+#header {
+	display: flex;
+	justify-content: center;
+}
+
+#projects-header {
+	margin: clamp(1em, 2em, 3em);
+}
+
+#projects {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 0 0 5% 0;
+}
+
+.projects {
+	border-radius: 50%;
+	width: clamp(6em, 16em, 26em);
+	height: clamp(6em, 16em, 26em);
+	margin: 0 0 10% 0;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.projects:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+	filter: grayscale(50%);
+}
+
+#github-logo-container {
+	display: flex;
+	justify-content: center;
+	margin: 5% 0 5% 0;
+}
+
+#github-logo {
+	width: clamp(3em, 6em, 9em);
+	height: clamp(3em, 6em, 9em);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#github-logo:hover {
+	transform: scale(1.05);
+	transition: 0.5s;
+}

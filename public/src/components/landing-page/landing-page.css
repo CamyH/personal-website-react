@@ -1,0 +1,154 @@
+/*
+Importing font
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+:root {
+	--background: hsl(235, 10%, 21%);
+	--text-colour: white;
+	--font: "Montserrat", sans-serif;
+	--header-weight: 700;
+	--sub-heading-weight: 600;
+	--button-weight: 500;
+	--button-bg: rgba(23, 98, 167, 1);
+	--circle-1-bg: hsla(209, 76%, 37%, 0.1);
+	--circle-3-bg: #bc3a801a;
+}
+
+/* 
+Base Page + Title
+*/
+
+body {
+	font-family: var(--font);
+	background-color: var(--background);
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	column-gap: 0;
+	height: 90vh;
+	margin: 0 0 0 6em;
+	min-width: 0;
+}
+
+h1 {
+	font-weight: var(--header-weight);
+}
+
+h2 {
+	font-weight: var(--sub-heading-weight);
+}
+
+h1,
+h2 {
+	color: var(--text-colour);
+}
+
+#name-h1,
+#what-am-i-h2 {
+	flex-basis: 1.75em;
+	height: 0;
+	margin: 0;
+	border: 0;
+	min-width: 0;
+}
+
+#name-h1,
+#what-am-i-h2,
+#buttons {
+	align-self: flex-start;
+	min-width: 0;
+	min-height: 0;
+}
+
+#buttons {
+	display: inline-flex;
+	flex-direction: row;
+	flex-basis: 4em;
+}
+#about-me-button,
+#project-button,
+#cv-button {
+	margin: 0 1em 0 0;
+	cursor: pointer;
+	font-family: var(--font) !important;
+	font-weight: var(--button-weight);
+}
+
+.landing-page-circle-1,
+.landing-page-circle-2,
+.landing-page-circle-3 {
+	position: absolute;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.landing-page-circle-1,
+.landing-page-circle-2 {
+	background-color: var(--circle-1-bg);
+}
+
+.landing-page-circle-1 {
+	width: 15vw;
+	height: 15vw;
+	top: -5vw;
+	left: -5vw;
+}
+
+.landing-page-circle-2 {
+	width: 10vw;
+	height: 10vw;
+	top: 50vh;
+	left: 55vw;
+}
+
+.landing-page-circle-3 {
+	width: 12vw;
+	height: 12vw;
+	background-color: var(--circle-3-bg);
+	top: 5vh;
+	right: 3vw;
+}
+
+@media (max-width: 1280px) {
+	.landing-page-circle-1 {
+		width: 20vw;
+		height: 20vw;
+	}
+	.landing-page-circle-2 {
+		width: 15vw;
+		height: 15vw;
+		top: 60vh;
+	}
+	.landing-page-circle-3 {
+		width: 17vw;
+		height: 17vw;
+	}
+}
+
+@media (max-width: 620px) {
+	#wrapper {
+		height: 100%;
+		width: auto;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		column-gap: 2rem;
+		margin: 8rem 0 0 2rem;
+	}
+	#name-h1 {
+		font-size: 1.5rem;
+	}
+	#what-am-i-h2 {
+		font-size: 1rem;
+	}
+	#about-me-button,
+	#project-button,
+	#cv-button {
+		min-width: 25px !important;
+		font-size: 0.5em !important;
+	}
+}
