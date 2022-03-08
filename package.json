@@ -1,5 +1,6 @@
 {
   "name": "personal-website-react",
+  "homepage": "https://camyh.github.io/personal-website-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
