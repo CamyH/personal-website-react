@@ -1,5 +1,8 @@
 import React from "react";
 import "./about-me.css";
+import github from "./github-logo-white.png";
+import linkedin from "./linkedin-logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutMe() {
 	return (
@@ -8,15 +11,34 @@ function AboutMe() {
 			<div id="content-wrapper">
 				<img id="profile-pic" src="placeholder.png" alt="placeholder"></img>
 				<p class="about-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
-					libero non leo condimentum gravida. Pellentesque imperdiet erat et
-					ipsum varius facilisis. Suspendisse eu imperdiet mi. Nulla sed nibh
-					nec felis dapibus semper. Nullam sodales, quam sit amet luctus
-					elementum, lorem odio dignissim leo, rutrum aliquam augue ipsum ac
-					nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-					posuere cubilia curae; Aliquam bibendum pretium consequat. Integer
-					quis orci fermentum, placerat metus a, rutrum magna.
+					Student Software Developer who has a keen interest in Web Technologies
+					and Software Engineering. <br />
+					Currently studying for a degree in Computing from Edinburgh Napier
+					University.
+					<br /> <br />
+					Open to any internship or job opportunities, please get in touch!
 				</p>
+			</div>
+			<div id="socials-container">
+				<a href="https://github.com/CamyH" target="new">
+					<img
+						src={github}
+						id="github-logo"
+						class="logo img-fluid"
+						alt="github icon"
+					/>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/cameron-hunt-48092b198/"
+					target="new"
+				>
+					<img
+						src={linkedin}
+						id="linkedin-logo"
+						class="logo img-fluid"
+						alt="github icon"
+					/>
+				</a>
 			</div>
 		</React.Fragment>
 	);

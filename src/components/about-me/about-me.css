@@ -19,6 +19,22 @@
 	font-size: clamp(0.5rem, 1rem, 2rem);
 }
 
+#socials-container {
+	display: flex;
+	justify-content: center;
+	gap: 1%;
+}
+
+#github-logo,
+#linkedin-logo {
+	width: clamp(3em, 3em, 9em);
+	height: clamp(3em, 3em, 9em);
+}
+
+#linkedin-logo {
+	border-radius: 25%;
+}
+
 #profile-pic {
 	border-radius: 50%;
 	width: clamp(3em, 16em, 26em);

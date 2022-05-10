@@ -37,14 +37,14 @@
 	margin: 5% 0 5% 0;
 }
 
-#github-logo {
+.logo {
 	width: clamp(3em, 6em, 9em);
 	height: clamp(3em, 6em, 9em);
 	cursor: pointer;
 	transition: 0.5s;
 }
 
-#github-logo:hover {
+.logo:hover {
 	transform: scale(1.05);
 	transition: 0.5s;
 }
