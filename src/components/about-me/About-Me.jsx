@@ -2,7 +2,6 @@ import React from "react";
 import "./about-me.css";
 import github from "./github-logo-white.png";
 import linkedin from "./linkedin-logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutMe() {
 	return (
