@@ -6,6 +6,11 @@
 	margin: clamp(1em, 2em, 3em);
 }
 
+#profile-pic-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
 #content-wrapper {
 	display: flex;
 	justify-content: center;
@@ -15,8 +20,9 @@
 .about-text {
 	color: var(--text-colour);
 	text-align: center;
-	margin: 0 3rem 0 3rem;
-	font-size: clamp(0.5rem, 1rem, 2rem);
+	justify-content: center;
+	margin: 0 0 1rem 0;
+	font-size: clamp(0.5rem, 1.15rem, 2rem);
 }
 
 #socials-container {
@@ -45,8 +51,7 @@
 	border-radius: 50%;
 	width: clamp(3em, 16em, 26em);
 	height: clamp(3em, 16em, 26em);
-	margin: 0 0 0 6rem;
-	cursor: pointer;
+	margin: -4rem 0 1rem 0;
 }
 
 @media only screen and (max-width: 980px) {
@@ -65,5 +70,14 @@
 	}
 	#content-wrapper {
 		flex-direction: column;
+	}
+	.about-text {
+		margin: 0 1rem 1rem 1rem;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.about-text {
+		font-size: 2rem;
 	}
 }

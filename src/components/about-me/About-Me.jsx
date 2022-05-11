@@ -8,14 +8,16 @@ function AboutMe() {
 	return (
 		<React.Fragment>
 			<h1 id="about-header">About Me</h1>
-			<div id="content-wrapper">
+			<div id="profile-pic-wrapper">
 				<img id="profile-pic" src="placeholder.png" alt="placeholder"></img>
+			</div>
+			<div id="content-wrapper">
 				<p class="about-text">
 					Student Software Developer who has a keen interest in Web Technologies
 					and Software Engineering. <br />
 					Currently studying for a degree in Computing from Edinburgh Napier
-					University.
-					<br /> <br />
+					University. <br />
+					<br />
 					Open to any internship or job opportunities, please get in touch!
 				</p>
 			</div>
