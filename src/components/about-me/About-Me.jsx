@@ -38,7 +38,7 @@ function AboutMe() {
 						alt="linkedin icon"
 					/>
 				</a>
-				<a href="" target="new">
+				<a href="mailto:camjameshunt@gmail.com" target="new">
 					<img
 						src={email}
 						id="email-logo"
