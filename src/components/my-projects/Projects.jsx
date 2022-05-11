@@ -31,8 +31,7 @@ function Projects() {
 					</a>
 					<a
 						href="https://github.com/CamyH/A-Vikingr-Adventure-CYOAG"
-						target="new"
-					>
+						target="new">
 						<img
 							src={cyoag}
 							id="project-3"

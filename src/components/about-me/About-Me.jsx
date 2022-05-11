@@ -2,6 +2,7 @@ import React from "react";
 import "./about-me.css";
 import github from "./github-logo-white.png";
 import linkedin from "./linkedin-logo.png";
+import email from "./email.png";
 
 function AboutMe() {
 	return (
@@ -29,13 +30,20 @@ function AboutMe() {
 				</a>
 				<a
 					href="https://www.linkedin.com/in/cameron-hunt-48092b198/"
-					target="new"
-				>
+					target="new">
 					<img
 						src={linkedin}
 						id="linkedin-logo"
 						class="logo img-fluid"
-						alt="github icon"
+						alt="linkedin icon"
+					/>
+				</a>
+				<a href="" target="new">
+					<img
+						src={email}
+						id="email-logo"
+						class="logo img-fluid"
+						alt="email icon"
 					/>
 				</a>
 			</div>

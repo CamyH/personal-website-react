@@ -27,8 +27,7 @@ function LandingPage() {
 							id="cv-button"
 							class="btn btn-primary btn-lg"
 							download
-							target="_self"
-						>
+							target="_self">
 							DOWNLOAD CV
 						</a>
 					</div>

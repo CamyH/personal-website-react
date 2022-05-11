@@ -26,13 +26,19 @@
 }
 
 #github-logo,
-#linkedin-logo {
+#linkedin-logo,
+#email-logo {
 	width: clamp(3em, 3em, 9em);
 	height: clamp(3em, 3em, 9em);
 }
 
 #linkedin-logo {
 	border-radius: 25%;
+}
+
+#email-logo {
+	border-radius: 50%;
+	background-color: white;
 }
 
 #profile-pic {
